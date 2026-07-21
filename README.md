@@ -1,2 +1,25 @@
 # data-analytics-learning
-My journey learning SQL, Excel, Python, R, and Power BI for data analytics.
+Hi, I'm Javis Foster 
+- Economics student at Queens College
+- Minor in Data Analytics and Media Studies
+
+Interested in:
+- Data Analytics
+- Business Intelligence
+- AI
+- Finance
+
+Skills
+- SQL
+- Python
+- R
+- Power BI
+- Excel
+
+Currently Learning
+- Microsoft Fabric
+- Power BI
+- Machine Learning
+
+Portfolio Projects ↓
+
