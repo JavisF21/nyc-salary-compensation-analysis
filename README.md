@@ -14,8 +14,7 @@ The analysis follows a real-world analytics workflow:
 ---
 
 ## Business Problem
-
-How can NYC agencies use salary data to identify highly paid roles, compare compensation across departments, and prioritize recruiting efforts?
+How can NYC agencies use salary and hiring data to identify competitive compensation, understand hiring demand, and prioritize recruiting efforts?
 
 ---
 
