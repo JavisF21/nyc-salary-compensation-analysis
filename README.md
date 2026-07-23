@@ -130,7 +130,7 @@ Python notebook used to:
 
 ---
 
-## By : Javis Foster
+## Author
 
 **Javis Foster**
 
