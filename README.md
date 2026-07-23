@@ -1,165 +1,139 @@
-# NYC Salary & Compensation Analysis
+# NYC Jobs Salary Analysis
 
 ## Project Overview
 
-This project analyzes New York City government job posting data using **SQL** and **Python** to identify salary trends, compare compensation across agencies, and provide insights that could help guide recruiting and workforce planning decisions.
+This project analyzes New York City job postings using Python and PostgreSQL to uncover hiring trends, salary distributions, agency activity, and career-level insights.
 
-The analysis follows a real-world analytics workflow:
-1. Data collection
-2. Data cleaning
-3. SQL analysis
-4. Data visualization
-5. Business recommendations
-
----
-
-## Business Problem
-How can NYC agencies use salary and hiring data to identify competitive compensation, understand hiring demand, and prioritize recruiting efforts?
+The project demonstrates the complete data analysis workflow:
+- Data cleaning with Python (Pandas)
+- Database design with PostgreSQL
+- SQL analysis using aggregations, CTEs, window functions, and views
+- (Coming Soon) Interactive dashboard in Power BI
 
 ---
-
-## Business Questions
-
-This project answers the following questions:
-
-- Which agencies offer the highest average salaries?
-- What is the average salary by agency?
-- Which job titles have the highest compensation?
-- How does salary vary based on experience requirements?
-- Which agencies pay above the citywide average?
-- Which agencies have the highest hiring demand?
-- Which job categories combine high salaries with high recruiting demand?
-
----
-
-## Tools & Technologies
-
-- SQL
-- Python
-- Pandas
-- SQLite
-- Jupyter Notebook
-- Matplotlib
-- Git
-- GitHub
-
----
-
-## Skills Demonstrated
-
-### SQL
-- SELECT
-- WHERE
-- GROUP BY
-- HAVING
-- ORDER BY
-- Aggregate Functions
-- Common Table Expressions (CTEs)
-- Window Functions
-- Joins
-- Subqueries
-
-### Python
-- Data Cleaning
-- Data Validation
-- Exploratory Data Analysis (EDA)
-- Feature Engineering
-- Data Visualization
-
-### Business Analytics
-- Salary Benchmarking
-- Workforce Analysis
-- Recruiting Analytics
-- Compensation Analysis
-- Business Reporting
 
 ## Dataset
 
-**Source**
+Source:
+NYC Open Data – Jobs NYC Postings
 
-NYC Open Data – NYC Government Job Postings
-
-The dataset includes information such as:
+The dataset contains thousands of NYC government job postings, including:
 
 - Agency
 - Business Title
-- Salary Range
-- Salary Frequency
+- Career Level
 - Job Category
-- Posting Date
-- Minimum Qualifications
-- Preferred Skills
+- Salary Range
 - Work Location
-- Number of Open Positions
+- Posting Dates
+- Employment Type
 
 ---
 
-## Analysis Workflow
+## Technologies Used
 
-### Phase 1
-- Import dataset
-- Inspect data
-- Identify missing values
+- Python
+- Pandas
+- PostgreSQL
+- SQL
+- Git
+- GitHub
+- Power BI (planned)
+
+---
+
+## Project Structure
+
+```
+nyc-jobs-salary-analysis/
+│
+├── README.md
+├── create_tables.sql
+├── salary_analysis.sql
+├── salary_analysis.ipynb
+├── Jobs_NYC_Postings.csv
+└── Jobs_NYC_Postings_Cleaned.csv
+```
+
+---
+
+## SQL Skills Demonstrated
+
+This project includes examples of:
+
+- SELECT
+- WHERE
+- ORDER BY
+- GROUP BY
+- Aggregate Functions
+- CASE Statements
+- COALESCE
+- Date Functions
+- Common Table Expressions (CTEs)
+- Window Functions
+- Views
+- Data Validation
+- Salary Analysis
+
+---
+
+## Analysis Performed
+
+The SQL analysis answers questions such as:
+
+- How many job postings exist?
+- Which agencies hire the most employees?
+- Which job categories are most common?
+- Which agencies offer the highest salaries?
+- What are the most common career levels?
+- How are salaries distributed?
+- How do job postings change over time?
+- Which locations have the most openings?
+
+---
+
+## Repository Files
+
+### create_tables.sql
+
+Creates the PostgreSQL database table used for the analysis.
+
+### salary_analysis.sql
+
+Contains all SQL queries used throughout the project, including:
+
+- Data validation
+- Exploratory analysis
+- Salary analysis
+- Window functions
+- CTEs
+- View creation
+
+### salary_analysis.ipynb
+
+Python notebook used to:
+
+- Load the dataset
+- Clean missing values
 - Remove duplicates
-
-### Phase 2
-- Clean column names
-- Standardize salary fields
-- Create salary midpoint
-- Prepare data for SQL analysis
-
-### Phase 3
-Answer business questions using SQL.
-
-### Phase 4
-Create visualizations using Python.
-
-### Phase 5
-Present findings and recommendations.
-
----
-
-## Key Visualizations
-
-The project will include visualizations such as:
-
-- Top agencies by average salary
-- Highest-paying job titles
-- Salary distribution
-- Salary by experience level
-- Hiring demand by agency
-- Agencies paying above the citywide average
-
----
-
-## Key Findings
-
-*To be completed after the analysis.*
-
----
-
-## Business Recommendations
-
-*To be completed after the analysis.*
+- Export the cleaned dataset
 
 ---
 
 ## Future Improvements
 
-Potential enhancements include:
-
-- Interactive Power BI dashboard
-- Inflation-adjusted salary analysis
-- Time-series hiring trends
-- Skill demand analysis using NLP
-- Predictive salary modeling using machine learning
+- Build an interactive Power BI dashboard
+- Add geographic visualizations
+- Perform salary trend forecasting
+- Create additional SQL views
+- Add indexes and query optimization
 
 ---
 
-## Author
+## By : Javis Foster
 
 **Javis Foster**
 
 Economics Major | Data Analytics Minor
 
-Learning SQL, Python, Power BI, and business analytics through personal hands-on portfolio projects.
+Currently building projects in Python, SQL, PostgreSQL, and Power BI to develop practical data analytics skills.
